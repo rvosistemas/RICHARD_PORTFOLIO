@@ -1,0 +1,51 @@
+<header>
+    <nav>
+        <h1>/RVO/</h1>
+        <div class="languages">
+            <span class="en">ENG</span>
+            <input type="checkbox" class="check" id="check"
+                   onclick="change_language()">
+            <span class="es">ESP</span>
+            <a class="mode" onclick="changeMode(this)" id="mode">
+                <span>|| Light</span>
+                <i class="fa-solid fa-sun"></i>
+            </a>
+        </div>
+        <ul id="links">
+            <li>
+                <a href="#start" class="selected" onclick="select(this)"
+                   data-section="start"
+                   data-value="start">INTRODUCTION</a>
+            </li>
+            <li>
+                <a href="#about_me" onclick="select(this)"
+                   data-section="about_me"
+                   data-value="about_me">EXPERIENCE</a>
+            </li>
+            <li>
+                <a href="#services" onclick="select(this)"
+                   data-section="services"
+                   data-value="services">SKILLS</a>
+            </li>
+            <li>
+                <a href="#portfolio" onclick="select(this)"
+                   data-section="portfolio"
+                   data-value="portfolio">PROJECTS</a>
+            </li>
+            <li>
+                <a href="#contact" onclick="select(this)"
+                   data-section="contact"
+                   data-value="contact">CONTACT</a>
+            </li>
+        </ul>
+        <!-- responsive menu icons -->
+        <div id="icon-nav" onclick="responsiveMenu()">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+        <!-- social media icons -->
+        <div class="networks">
+            <a href="#"><i class="fa-brands fa-github"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+    </nav>
+</header>

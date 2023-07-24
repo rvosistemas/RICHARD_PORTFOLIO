@@ -1,0 +1,15 @@
+//navbar
+
+@mixin language-common-styles {
+    text-align: center;
+    font-size: $font-size-small-base;
+    margin-right: $languages-margin-right;
+    margin-left: $languages-margin-left;
+}
+
+@mixin language-check-common-styles {
+    content: '';
+    position: absolute;
+    border-radius: 25px;
+    height: 25px;
+}

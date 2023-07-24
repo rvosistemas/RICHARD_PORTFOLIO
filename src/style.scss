@@ -1,0 +1,12 @@
+@import '/src/sass/variables.scss';
+@import '/src/sass/colors.scss';
+@import '/src/sass/mixins.scss';
+// components
+@import './components/navbar/navbar.scss';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
